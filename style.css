@@ -1,0 +1,86 @@
+body,hmtl {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bglogin{
+
+    background-image: 
+    url("https://www.birmingham.ac.uk/Images/News/Forest-900.jpg");
+    min-height: 380px;
+    /* Center the scale image */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #222;
+    border: 1px solid green;
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+
+      width: 100%;
+      padding: 15px;  
+      margin: 5px 0 22px 0;
+      border: none;
+      color: white;
+      border-bottom: 1px solid green;
+      background-color: transparent;
+
+}
+
+
+input[type=text]:focus, 
+input[type=password]:focus {
+
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+.btn {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+b{
+    color: white;
+}
+
+/* Now change the placeholder color */
+
+::placeholder {
+    color: gray;
+    opacity: 0.9;
+}
